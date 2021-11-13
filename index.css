@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+@font-face 
+{
+    font-family: 'digital-clock-font';
+    src: url('digital-7.ttf');
+}
+
+h1
+{
+    float: left;
+    color: rgba(165, 202, 202, 0.671);
+}
+
+h6
+{
+  color:darkkhaki;
+}
+.container
+{
+    text-align: center;
+    margin-top: 23px;
+    background: #373737;
+    margin: auto;
+    width:285px;
+    border: 10px solid rgba(128, 128, 128, 0.212) ;
+    border-radius: 10px;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+}
+
+table
+{
+  margin: auto;
+}
+
+input
+{
+    font-family: 'digital-clock-font';
+    font-size: 26px;
+    height: 50px;
+    margin-bottom: 8px;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: white;
+    background: #373737;
+    padding: 6px;
+}
+
+
+
+button
+{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 53px;
+    height: 48px;
+    background-color:#181818;
+    color: white;
+    border: 2px solid rgb(224, 11, 11);
+    border-radius: 5px;
+
+    
+}
+
+.lastbutton
+{
+    width: 88px;
+    font-weight: 550;
+    float: right;
+    
+}
+
+
